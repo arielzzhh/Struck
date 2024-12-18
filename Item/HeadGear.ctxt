@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=HeadGear
+comment1.params=name\ physical\ Perks
+comment1.target=HeadGear(java.lang.String,\ int,\ byte[][])
+numComments=2
