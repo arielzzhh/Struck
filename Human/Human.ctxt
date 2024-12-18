@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Human
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment2.params=
+comment2.target=java.lang.String\ getAge()
+comment3.params=age
+comment3.target=void\ setAge(int)
+comment4.params=
+comment4.target=Item.HeadGear\ getHeadSlot()
+comment5.params=name\ age\ Genes
+comment5.target=Human(java.lang.String,\ int,\ int[])
+numComments=6

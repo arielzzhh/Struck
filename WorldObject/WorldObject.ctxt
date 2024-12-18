@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WorldObject
+comment1.params=
+comment1.target=WorldObject()
+comment2.params=x\ y
+comment2.target=WorldObject(float,\ float)
+numComments=3
