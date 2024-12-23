@@ -2,11 +2,11 @@ package WorldObject;
 
 
 
-public class Tree extends WorldObject{
+public class AiDriven extends WorldObject{
 
 
     
-    public Tree(){
+    public AiDriven(){
     super(50,30);
     
 

@@ -4,4 +4,6 @@ comment1.params=
 comment1.target=WorldObject()
 comment2.params=x\ y
 comment2.target=WorldObject(float,\ float)
-numComments=3
+comment3.params=x\ y\ s
+comment3.target=WorldObject(float,\ float,\ float)
+numComments=4

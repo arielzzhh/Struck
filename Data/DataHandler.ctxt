@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DataHandler
+comment1.params=
+comment1.target=World\ getActiveWorld()
+comment2.params=newWorld
+comment2.target=void\ setActiveWorld(World)
+comment3.params=
+comment3.target=void\ passMoment()
+numComments=4

@@ -3,6 +3,8 @@ package Data;
 public class SavedData {
     
     private String name;
+      
+    
     
     // Constructor to accept a name
     public SavedData(String name) {
