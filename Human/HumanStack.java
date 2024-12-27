@@ -18,6 +18,13 @@ public class HumanStack {
     }
     
     
+    public void add(){
+    
+    
+    
+    }
+    
+    
     
     
     

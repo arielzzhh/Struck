@@ -1,10 +1,15 @@
 package Engine;
 
 public class CustomClock {
-    private long startTime = 0; // Time when the clock started
+    private long startTime = 0;  // Time when the clock started
     private long pausedTime = 0; // Time when the clock was paused
     private boolean running = false; // Is the clock running?
     private double speedMultiplier = 1.0; // Speed of the clock (1x, 2x, 4x)
+
+    // Constructor to initialize the CustomClock
+    public CustomClock() {
+        // Initialize variables if necessary (not strictly needed as they're already initialized)
+    }
 
     // Start the clock at normal speed
     public void startClock() {
@@ -50,44 +55,21 @@ public class CustomClock {
         return pausedTime;
     }
 
-    public static void main(String[] args) throws InterruptedException {
-        CustomClock clock = new CustomClock();
+    // Reset the clock
+    public void resetClock() {
+        startTime = 0;
+        pausedTime = 0;
+        running = false;
+        speedMultiplier = 1.0;
+    }
 
-        // Start the clock
-        clock.startClock();
-        System.out.println("Clock started...");
+    // Getter for running status
+    public boolean isRunning() {
+        return running;
+    }
 
-        // Let it run for 2 seconds
-        Thread.sleep(2000);
-
-        // Print elapsed time at normal speed
-        System.out.println("Elapsed time: " + clock.getElapsedTime() + "ms");
-
-        // Run at 2x speed
-        clock.runAtTwoTimesSpeed();
-        System.out.println("Clock running at 2x speed...");
-
-        // Let it run for another 2 seconds
-        Thread.sleep(2000);
-
-        // Print elapsed time at 2x speed
-        System.out.println("Elapsed time: " + clock.getElapsedTime() + "ms");
-
-        // Run at 4x speed
-        clock.runAtFourTimesSpeed();
-        System.out.println("Clock running at 4x speed...");
-
-        // Let it run for another 2 seconds
-        Thread.sleep(2000);
-
-        // Print elapsed time at 4x speed
-        System.out.println("Elapsed time: " + clock.getElapsedTime() + "ms");
-
-        // Pause the clock
-        clock.pauseClock();
-        System.out.println("Clock paused...");
-
-        // Print final elapsed time
-        System.out.println("Final elapsed time: " + clock.getElapsedTime() + "ms");
+    // Getter for the current speed multiplier
+    public double getSpeedMultiplier() {
+        return speedMultiplier;
     }
 }

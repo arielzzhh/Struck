@@ -2,6 +2,10 @@
 comment0.target=World
 comment1.params=name
 comment1.target=World(java.lang.String)
-comment2.params=newZone
-comment2.target=void\ addZone(WorldObject.Zone)
-numComments=3
+comment2.params=
+comment2.target=Engine.Date.Date\ getDate()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=newZone
+comment4.target=void\ addZone(WorldObject.Zone)
+numComments=5

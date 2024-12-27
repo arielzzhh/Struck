@@ -2,6 +2,8 @@ package Data;
 
 
 
+
+
 public class DataHandler
 {
     public static World ActiveWorld =null;
@@ -19,6 +21,17 @@ public class DataHandler
     public static void setActiveWorld(World newWorld){
         ActiveWorld= newWorld;
     }
+    
+    public static void startBaseWorld(){
+    World newWorld = new World("new Game");
+    DataHandler.setActiveWorld(newWorld);   
+    System.out.println("game start the");
+    System.out.println("the year is:"+newWorld.getDate());
+    
+    }
+    
+    
+    
     
     
 
