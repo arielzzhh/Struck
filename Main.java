@@ -1,11 +1,16 @@
 import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintWriter;
-import Data.SavedData;
+import Data.DataHandler;
+import Engine.CustomClock;
+
+
+
 
 public class Main {
     public static void main(String[] args) {
+    DataHandler.startBaseWorld();
+   
+
+        
     
     
     
