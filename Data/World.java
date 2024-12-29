@@ -24,6 +24,9 @@ public class World {
     
     
     
+    
+    
+    
 
     
     
@@ -34,6 +37,23 @@ public class World {
         this.Date=new Date();
         
     }
+    
+    
+      public String toString(){
+    
+        
+        
+        return "name "+this.name +"/  "+this.Date +"Zones:   " ;
+    
+    }
+    
+    
+    public String SignatureZones(){
+    String derek = "zones";
+        
+        
+    return derek;
+    };
     
     
     
@@ -48,13 +68,7 @@ public class World {
     }
     
     
-    public String toString(){
-    
-        
-        
-        return "the World Name is "+this.name;
-    
-    }
+  
     
     //adding zones 
     

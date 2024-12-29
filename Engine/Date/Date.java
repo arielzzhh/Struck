@@ -30,9 +30,31 @@ public class Date {
         this.hour = 1;
         this.day = 1;
         this.month = 1;
-        this.year = 8200000;
+        this.year = 252;
         this.yearType = 0;
     }
+    
+    
+    public Date(String custom){
+        switch(custom){
+        case "DinoWorld":
+        this.sec=0;
+        this.min = 0;
+        this.hour = 1;
+        this.day = 1;
+        this.month = 1;
+        this.year = 8200000;
+        this.yearType = 1;
+        }       
+        
+    
+    
+    
+    
+    }
+    
+    
+    
     
     
 
@@ -59,8 +81,9 @@ public class Date {
     }
     
     
-    public  void  lowerYearUnit(){
-    this.year--;
+    public  void  lowerYearUnit(int amount){
+    this.year-=amount;
+    System.out.println("lowerYearUnit/Date :"+ this.year );
     }
     
     
