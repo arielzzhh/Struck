@@ -2,7 +2,7 @@ package Item;
 
 
 
-public class Item{
+abstract public class Item{
     
 
     private String name  ;
@@ -18,6 +18,8 @@ public class Item{
    public Item(String name){
        this.name =name;
     }
+    
+    public abstract int Value();
     
     
   

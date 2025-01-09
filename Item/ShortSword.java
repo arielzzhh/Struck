@@ -16,10 +16,7 @@ public ShortSword (String name,int physical,byte[][] Perks ){
     
     
     
-    public getShortSword(){
-    
-    
-    }
+ 
     
     
     

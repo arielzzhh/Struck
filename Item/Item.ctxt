@@ -4,4 +4,6 @@ comment1.params=item
 comment1.target=void\ gainItem(Item)
 comment2.params=name
 comment2.target=Item(java.lang.String)
-numComments=3
+comment3.params=
+comment3.target=int\ Value()
+numComments=4
