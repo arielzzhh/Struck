@@ -15,7 +15,9 @@ import Item.Header;
 
 public class Human extends WorldObject {
     //info 
-        static String[] HumanSkills  ={"Travler","Hunter","Crafter","shelterCreator","guard"};
+    
+    String[] attributes = {"Strength", "Agility", "Balance", "Intelligence", "Empathy", "Sharpness", "Mentality", "Charisma", "Luck", "WorkRate"};
+    static String[] HumanSkills  ={"Travler","Hunter","Crafter","shelterCreator","guard"};
         
 
     //stats

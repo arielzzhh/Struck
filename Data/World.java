@@ -3,34 +3,15 @@ package Data;
 import java.util.ArrayList;
 import WorldObject.Zone ; 
 import Engine.CustomClock;
-
 import Engine.Date.Date;
 
 
-
-
 public class World {
-
-
     private String name ;
     private float[] Size ;
     private ArrayList<Zone> Zones;
     private Date Date ;
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
-    
-    
-    
     public World(String name){
         this.name = name;
         this.Size=new float[]{3000,3000};
@@ -39,22 +20,25 @@ public class World {
     }
     
     
+    
+    
+    public World(  ){
+        
+    }
+    
+    
+    
+    
+    
+
       public String toString(){
     
-        
-        
-        return "name "+this.name +"/  "+this.Date +"Zones:   " ;
+        return " World :"+this.name +"\n"+this.Date +"\n Zones:   " ;
     
     }
     
     
-    public String SignatureZones(){
-    String derek = "zones";
-        
-        
-    return derek;
-    };
-    
+       
     
     
     

@@ -62,11 +62,11 @@ public class Date {
     public String typeDef() {
         switch (this.yearType) {
             case 0:
-                return "bilions years ago ";
+                return "bilions Bce ";
             case 1:
-                return "milion years ";
+                return "milion Bce ";
             case 2:
-                return "Century";
+                return "Century ";
             case 3:
                 return "Decade";
             case 4:

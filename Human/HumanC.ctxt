@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=HumanC
+comment1.params=age
+comment1.target=Human\ age(byte)
+comment2.params=Str\ agility\ Balance\ intelligence\ Empathy\ sharpness\ mentality\ Charisma\ Luck\ WorkRate
+comment2.target=Human\ Stat(int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment3.params=ages
+comment3.target=Human[]\ ages(byte[])
+numComments=4

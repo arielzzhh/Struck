@@ -24,14 +24,18 @@ public class DataHandler
     
     public static void startBaseWorld(){
     World newWorld = new World("new Game");
-    DataHandler.setActiveWorld(newWorld);   
-    System.out.println("game start the");
-    System.out.println("the year is:"+newWorld.getDate());
-    
+    DataHandler.setActiveWorld(newWorld);  
+    System.out.println("game starts");
     }
     
     
+    public static void startDinoWorld(){
+    World newWorld = new World("DinoWorld");
+    DataHandler.setActiveWorld(newWorld);  
+    System.out.println("game starts");
     
+
+}
     
     
 

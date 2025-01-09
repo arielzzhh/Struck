@@ -2,6 +2,12 @@
 comment0.target=HumanStack
 comment1.params=
 comment1.target=HumanStack()
-comment2.params=
-comment2.target=void\ add()
-numComments=3
+comment2.params=human
+comment2.target=void\ changeLeader(Human)
+comment3.params=human
+comment3.target=void\ addTeamMate(Human)
+comment4.params=
+comment4.target=Human\ getLead()
+comment5.params=
+comment5.target=java.util.ArrayList\ getTeam()
+numComments=6
