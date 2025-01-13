@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Ex13
+comment0.text=\ \r\n\ \ runing\ 4\ maman13\ \ questions\ \ by\ teachers\ request\r\n\ \ @author\:ariel\ astangelov\ \r\n\ \ id\ \:315407726\ \ 4/01/2024\ \r\n
+comment1.params=arr\ med
+comment1.target=int[]\ specialArr(int[],\ int)
+comment2.params=arr
+comment2.target=int\ first(int[])
+comment3.params=arr
+comment3.target=int\ longestNearlyPal(int[])
+comment4.params=arr\ left\ right\ removed
+comment4.target=int\ findLongest(int[],\ int,\ int,\ boolean)
+comment5.params=mat
+comment5.target=int\ extreme(int[][])
+comment6.params=mat\ row\ col\ currentMax\ visited
+comment6.target=int\ findExtremePath(int[][],\ int,\ int,\ int,\ boolean[][])
+numComments=7
